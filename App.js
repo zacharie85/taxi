@@ -42,7 +42,7 @@ export default function App() {
                 // console.log('Options', options);
                  return{headerLeft: () =>(
                    <TouchableOpacity onPress= {() => options.navigation.pop()}>
-                             <Text>retour  a la ligne</Text>
+                             <Text>retour</Text>
                    </TouchableOpacity>
                  )
                  }
